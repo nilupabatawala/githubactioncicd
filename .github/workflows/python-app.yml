@@ -41,8 +41,11 @@ jobs:
     - name: build and push docker image to registry
       uses: docker/build-push-action@v5
       with:
-        context: ../
-        push: true
-        tags: nilupab/githubactions:latest
+        image: nilupab/githubactions:latest
+        registry: docker.io
+     
+
+
+
 
 
