@@ -42,7 +42,6 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         image: nilupab/githubactions:latest
-        registry: docker.io
      
 
 
